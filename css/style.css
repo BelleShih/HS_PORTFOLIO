@@ -132,7 +132,7 @@ body {
 
 @media (max-width: 575px) {
   .my-pic {
-    height: 400px;
+    height: auto;
     margin: 3rem 0 0 0;
   }
   .my-pic .pic-bg {
@@ -142,7 +142,7 @@ body {
 
 @media (min-width: 576px) {
   .my-pic .pic-bg {
-    width: 400px;
+    width: 410px;
     height: 500px;
     background: #ebd456;
     border-radius: 5px;
@@ -155,6 +155,7 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 7px;
+    margin-bottom: 2rem;
   }
 }
 
@@ -734,6 +735,10 @@ td:hover {
 #contact {
   background: #eee;
   margin-top: 2rem;
+}
+
+#contact h4 {
+  letter-spacing: 0.1rem;
 }
 
 #contact p {
