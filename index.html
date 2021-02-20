@@ -4,15 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">  
   <!-- google 字形 -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <!-- google font -->
   <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
   <!-- fontAwesome -->
   <link rel="stylesheet" href="./css/fontawesome.min.css">
-  <title>HSIAO CHIEH PROFOLIO</title>
+  <!-- animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css' />
+  <!-- 自訂css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>HSIAO-CHIEH PROFOLIO</title>
 </head>
 <body class="h-100">
   <!-- head -->
@@ -65,21 +69,21 @@
         <div class="col-12 d-flex title justify-content-center">
           <h6>ABOUT</h6>
         </div>
-        <div class="col-sm-12 col-lg-6 d-flex">
+        <div class="col-11 col-sm-12 col-lg-6 d-flex">
           <div class="my-pic justify-content-center">
             <div class="pic-bg"></div>
             <img src="./images/02.jpg" class="object-fit">
           </div>
         </div>
-        <div class="col-sm-12 col-lg-6 d-flex justify-content-center flex-column des">
+        <div class="col-sm-12 col-lg-6 d-flex justify-content-center flex-column des wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
           <h3>HSIAO-CHIEH</h3>
           <p>對事情充滿好奇心，樂觀開朗，喜歡嘗試不同可能性。因在工作中意外發現自己對程式設計的興趣，進而有轉職的念頭，對於程式，最喜歡的地方是把想法實踐出來的瞬間，希望未來可以用程式解決更多生活上的問題，期待與工作上不同崗位的夥伴交流，一同互相學習、成長邁進！</p>
-          <div class="d-flex">
-            <div class="col-7 row about-circle align-items-center">
+          <div class="d-flex flex-wrap">
+            <div class="col-12 col-sm-12 col-md-7 row about-circle align-items-center">
               <div class="d-flex justify-content-center align-items-center">3</div>
               <div class="">年設計實務經驗</div>
             </div>
-            <div class="col-5 row about-circle align-items-center">
+            <div class="col-12 col-sm-12 col-md-5 row about-circle align-items-center">
               <div class="d-flex justify-content-center align-items-center">3</div>
               <div class="">張專業證照</div>
             </div>
@@ -247,7 +251,7 @@
           <h6>ABILITY</h6>
         </div>
         <div class="col-sm-12 col-lg-4 mb">
-          <div class="card d-flex justify-content-center align-items-center p-4">
+          <div class="card d-flex justify-content-center align-items-center p-4 wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
             <div class="d-flex justify-content-center align-items-center icon-bg">
               <i class="fas fa-pen-fancy icon"></i>
             </div>
@@ -258,7 +262,7 @@
           </div>
         </div>
         <div class="col-sm-12 col-lg-4 mb">
-          <div class="card d-flex justify-content-center align-items-center p-4">
+          <div class="card d-flex justify-content-center align-items-center p-4 wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
             <div class="d-flex justify-content-center align-items-center icon-bg">
               <i class="fas fa-desktop icon"></i>
             </div>
@@ -269,7 +273,7 @@
           </div>
         </div>
         <div class="col-sm-12 col-lg-4 mb">
-          <div class="card d-flex justify-content-center align-items-center p-4">
+          <div class="card d-flex justify-content-center align-items-center p-4 wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
             <div class="d-flex justify-content-center align-items-center icon-bg">
               <i class="fas fa-code icon"></i>
             </div>
@@ -290,7 +294,7 @@
           <h6>RESUME</h6>
         </div>
         <div class="col-sm-12 col-md-6 d-flex flex-column">
-          <div class="col">
+          <div class="col wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
             <h5 class="h5">簡述</h5>
             <div class="resume_text">
               <h6>Hsiao-Chieh</h6>
@@ -303,7 +307,7 @@
               </ul>
             </div>
           </div>
-          <div class="col resume_edu">
+          <div class="col resume_edu wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
             <h5 class="h5">學習歷程</h5>
             <div class="resume_text">
               <h6>前端網頁開發技術(青年專班) / 泰山職訓局</h6>
@@ -326,7 +330,7 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-6 mt">
-          <div class="col">
+          <div class="col wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
             <h5 class="h5">工作經驗</h5>
             <div class="resume_text">
               <h6>設計師 / 愛麗歐國際生物科技有限公司</h6>
@@ -369,11 +373,46 @@
         <!-- petcle -->
         <div class="col-12 d-flex justify-content-center mt-5 mb-2">
           <div class="col-sm-3 col-lg-4 line2"></div>
-          <p class="col-sm-6 col-lg-4 h7 text-center">Petcle 寵物交流平台</p>
+          <p class="col-sm-6 col-lg-4 h7 text-center">前端開發</p>
           <div class="col-sm-3 col-lg-4 line2"></div>
         </div>
+        <div class="col-10 col-lg-6">
+          <div class="view p-card-2">
+            <div>
+              <img src="./images/03.png" class="img-fluid">
+              <div class="icon-sm">
+                <a href="https://belleshih.github.io/web_Petcle/#/index" target="_blank">
+                  <i class="fas fa-link"></i>
+                  <h6>Petcle 寵物交流平台</h6>
+                </a>
+              </div>
+              <div class="pro-text">
+                <h5>Petcle 寵物交流平台</h5>
+                <p>使用技術：Vue、JavaScript、Sass、Quasar、node.js、mongoDB、
+                  Google Analytics</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-lg-6">
+          <div class="view p-card-2">
+            <div>
+              <img src="./images/09.png" class="img-fluid">
+              <div class="icon-sm">
+                <a href="https://belleshih.github.io/web_Petcle/#/admin/" target="_blank">
+                  <i class="fas fa-link"></i>
+                  <h6>Petcle 後台管理系統</h6>
+                </a>
+              </div>
+              <div class="pro-text">
+                <h5>Petcle 後台管理系統</h5>
+                <p>使用技術： Vue、JavaScript、Sass、node.js、mongoDB</p>
+              </div>
+            </div>
+          </div>
+        </div>
         <h6 class="col-12">概念</h6>
-        <p class="col-12">Petcle是一個為喜歡寵物的人們所設計的交流網站，希望可以為喜愛動物的人們多一個專屬的療癒空間，使用者可以在這裡分享自己滿意的寵物照片，將喜歡的照片收藏在自己的療癒空間裡面，且隨時都可以進入療癒空間看這些可愛寵物照，也可與其他會員進行討論互動，也可以寫信認識新朋友！</p>
+        <p class="col-12">Petcle是一個為喜歡寵物的人們所設計的交流網站，希望可以為喜愛動物的人們多一個專屬的療癒空間，使用者可以在這裡分享自己滿意的寵物照片，將喜歡的照片收藏在自己的療癒空間裡面，且隨時都可以進入療癒空間看這些可愛寵物照，也可與其他會員進行討論互動，寫信認識新朋友！</p>
         <div class="col-12 line3"></div>
         <div class="col-12 d-flex column flex-wrap">
           <div class="col-sm-12 col-md-6">
@@ -400,48 +439,9 @@
               <li>關鍵字搜尋功能</li>
             </ul>
           </div>
-        </div>
-        <div class="col-10 col-lg-6">
-          <div class="view p-card-2">
-            <div>
-              <img src="./images/03.png" class="img-fluid">
-              <div class="icon-sm">
-                <a href="https://belleshih.github.io/web_Petcle/#/index" target="_blank">
-                  <i class="fas fa-link"></i>
-                  <h6>Petcle 寵物交流平台</h6>
-                </a>
-              </div>
-              <div class="pro-text">
-                <h5>Petcle 前台</h5>
-                <p>使用技術：Vue、JavaScript、Sass、Quasar、node.js、mongoDB、
-                  Google Analytics</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-10 col-lg-6">
-          <div class="view p-card-2">
-            <div>
-              <img src="./images/09.png" class="img-fluid">
-              <div class="icon-sm">
-                <a href="https://belleshih.github.io/web_Petcle/#/admin/" target="_blank">
-                  <i class="fas fa-link"></i>
-                  <h6>Petcle 後台管理系統</h6>
-                </a>
-              </div>
-              <div class="pro-text">
-                <h5>Petcle 後台管理系統</h5>
-                <p>使用技術： Vue、JavaScript、Sass、node.js、mongoDB</p>
-              </div>
-            </div>
-          </div>
+          <div class="col-12 line3"></div>
         </div>
         <!-- 其他開發 -->
-        <div class="col-12 d-flex justify-content-center mt-5 mb-2">
-          <div class="col-sm-4 col-lg-5 line2"></div>
-          <p class="col-sm-4 col-lg-2 h7 text-center">前端開發</p>
-          <div class="col-sm-4 col-lg-5 line2"></div>
-        </div>
         <div class="col-10 col-lg-4">
           <div class="view p-card">
             <div>
@@ -454,7 +454,7 @@
               </div>
               <div class="pro-text">
                 <h5>LINE_BOT機器人 - 報出口</h5>
-                <p>報出口是一款可以協助您查詢 "指定位置與哪一個台北捷運出口最相近" 的小幫手! 節省您找路與查詢的時間，再也不會繞遠路囉!</p>
+                <p>報出口是一款可以協助您查詢 "指定位置與哪一個台北捷運出口最相近" 的小幫手! 節省您找路與查詢的時間，趕快加入好友!</p>
                 <p style="font-size: 0.9rem;">使用技術： JavaScript、HTML</p>
               </div>
             </div>
@@ -465,7 +465,7 @@
             <div>
               <img src="./images/13.png" class="img-fluid">
               <div class="icon-sm">
-                <a href="https://belleshih.github.io/web_Petcle/#/index" target="_blank">
+                <a href="https://belleshih.github.io/the_tea/" target="_blank">
                   <i class="fas fa-link"></i>
                   <h6>THE TEA'S</h6>
                 </a>
@@ -483,7 +483,7 @@
             <div>
               <img src="./images/12.jpg" class="img-fluid">
               <div class="icon-sm">
-                <a href="https://belleshih.github.io/web_Petcle/#/admin/" target="_blank">
+                <a href="https://iskira.co/" target="_blank">
                   <i class="fas fa-link"></i>
                   <h6>i SKIRA 官方網站</h6>
                 </a>
@@ -500,9 +500,9 @@
       <!-- jQ遊戲 -->
       <div class="row justify-content-center">
         <div class="col-12 d-flex justify-content-center mt-5 mb-2">
-          <div class="col-sm-3 col-5 line2"></div>
-          <p class="col-sm-6 col-2 h7 text-center">jQuery 小遊戲</p>
-          <div class="col-sm-3 col-5 line2"></div>
+          <div class="col-3 col-sm-3 col-lg-5 line2"></div>
+          <p class="col-6 col-sm-6 col-lg-2 h7 text-center">jQuery 小遊戲</p>
+          <div class="col-3 col-sm-3 col-lg-5 line2"></div>
         </div>
         <div class="col-10 col-lg-4">
           <div class="view p-card">
@@ -562,9 +562,9 @@
       <!-- 活動網頁設計 -->
       <div class="row justify-content-center">
         <div class="col-12 d-flex justify-content-center mt-5 mb-2">
-          <div class="col-sm-4 col-5 line2"></div>
-          <p class="col-sm-4 col-2 h7 text-center">活動網頁設計</p>
-          <div class="col-sm-4 col-5 line2"></div>
+          <div class="col-3 col-sm-4 col-lg-5 line2"></div>
+          <p class="col-6 col-sm-4 col-lg-2 h7 text-center">活動網頁設計</p>
+          <div class="col-3 col-sm-4 col-lg-5 line2"></div>
         </div>
         <div class="col-10 col-lg-4">
           <div class="view p-card-3">
@@ -624,10 +624,22 @@
     </div>
   </section>
   <section id="contact">
-    <div class="footer d-flex justify-content-center align-items-center">
-      <p class="text-center">© Copyright 2020. All Rights Reserved<br/>Designed by Hsiao-Chieh,Shih</p>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 d-flex title justify-content-center mb-5">
+          <h6>CONTACT</h6>
+        </div>
+        <div class="d-flex align-items-center column flex-wrap contact">
+          <h4 class="col-12 text-center">THANK YOU!</h4>
+          <p class="col-12 text-center">非常感謝耽誤您的寶貴時間在觀看這份履歷，如果有需要聯繫煩請 <a href="mailto:belleshih0502@gmail.com">E-mail</a>通知</p>
+        </div>
+      </div>
     </div>
   </section>
+  <!-- footer -->
+  <div class="footer d-flex justify-content-center align-items-center">
+    <p class="text-center">© Copyright 2020. All Rights Reserved<br/>Designed by Hsiao-Chieh,Shih</p>
+  </div>
   <!-- 回頂端 -->
   <div id="go_top_page" class="animate__animated animate__bounce" style="animation-duration: 3s;">
     <a href="#head"><i class="fas fa-chevron-up"></i></a>
@@ -642,6 +654,8 @@
   <script src="./js/scrollpage.js"></script>
   <!-- jQuery.easeScroll.js -->
   <script src="./js/jquery.easeScroll.js"></script>
+  <!-- wow -->
+  <script src="./js/wow.min.js"></script>
   <script>
     // jQuery.easeScroll.js 使頁面滾動平滑 ----------------------------------------------------------------------
     $('html').easeScroll({
@@ -653,14 +667,6 @@
     $(window).on('scroll', function () {
       // 目前捲軸捲動的距離(與最頂端 0 之間的距離)
       nowloc = $(window).scrollTop()
-      if (nowloc > 500) {
-        $('#go_top_page').fadeIn(1000)
-        $('#go_top_page').css({ 'animation-iteration-count': 3 })
-      } else {
-        $('#go_top_page').fadeOut(1000)
-        $('#go_top_page').css({ 'animation-iteration-count': 'none' })
-      }
-
       // 捲軸捲動位置小於 300，#navbar 背景變透明
       if (nowloc < 300) {
         $('#navbar').css({
@@ -672,6 +678,19 @@
         })
       }
     })
+
+    $("#go_top_page").click(function(){
+        jQuery("html,body").animate({
+            scrollTop:0
+        },1000);
+    });
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 300){
+            $('#go_top_page').fadeIn("fast");
+        } else {
+            $('#go_top_page').stop().fadeOut("fast");
+        }
+    });
 
     $('.navbar-toggler').on('click', function () {
       $('#navbar').toggleClass('toggle_black')
@@ -700,6 +719,9 @@
       .pauseFor(1000)
       .deleteChars(16)
       .start();
+
+    // wow
+    new WOW().init();
   </script>
 </body>
 </html>

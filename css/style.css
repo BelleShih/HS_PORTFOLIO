@@ -80,8 +80,8 @@ body {
 }
 
 #head-pic {
-  height: 400px;
-  background: url("../images/17.jpg") no-repeat center center/cover;
+  height: 350px;
+  background: url("../images/15.jpg") no-repeat center center/cover;
   position: relative;
 }
 
@@ -706,13 +706,25 @@ td:hover {
   margin-top: 0.8rem;
 }
 
+#contact {
+  background: #eee;
+  margin-top: 2rem;
+}
+
+#contact p {
+  letter-spacing: 0.1rem;
+}
+
+#contact .contact {
+  margin: 1rem 0 3rem 0;
+}
+
 .footer {
   height: 100px;
   background: #ebd456;
   color: #333;
   padding-top: 1.5rem;
   letter-spacing: 1px;
-  margin-top: 1rem;
 }
 
 /* 回到頂端 */
