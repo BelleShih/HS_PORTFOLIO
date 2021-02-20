@@ -169,7 +169,7 @@ body {
   height: 500px;
   margin: 8rem 0;
   @include xs {
-    height: 420px;
+    height: 400px;
     margin: 3rem 0 0 0;
     .pic-bg {
       display: none;
@@ -180,6 +180,7 @@ body {
       width: 400px;
       height: 500px;
       background: $y1;
+      border-radius: 5px;
     }
   }
 }
@@ -188,6 +189,7 @@ body {
   @include xs {
     width: 100%;
     object-fit: cover;
+    border-radius: 7px;
   }
   @include sm {
     width: 100%;
@@ -197,6 +199,7 @@ body {
     position: relative;
     top: -470px;
     left: 30px;
+    border-radius: 5px;
   }  
 }
 

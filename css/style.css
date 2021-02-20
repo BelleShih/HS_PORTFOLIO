@@ -132,7 +132,7 @@ body {
 
 @media (max-width: 575px) {
   .my-pic {
-    height: 420px;
+    height: 400px;
     margin: 3rem 0 0 0;
   }
   .my-pic .pic-bg {
@@ -145,6 +145,7 @@ body {
     width: 400px;
     height: 500px;
     background: #ebd456;
+    border-radius: 5px;
   }
 }
 
@@ -153,6 +154,7 @@ body {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+    border-radius: 7px;
   }
 }
 
@@ -167,6 +169,7 @@ body {
     position: relative;
     top: -470px;
     left: 30px;
+    border-radius: 5px;
   }
 }
 
