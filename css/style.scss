@@ -371,6 +371,11 @@ td{
   padding:  0.2rem 0.5rem;
 }
 
+.li {
+  list-style-type: none;
+  font-weight: 500;
+}
+
 // profolio
 .p-card {
   position: relative;
@@ -600,23 +605,37 @@ td{
   margin-bottom: 1.5rem;
 }
 
-// .view:hover img {
-//   transform: scale(1.2);
-// }
-
-// .view:hover .icon-sm {
-//   background-color: rgba($color: #000000, $alpha: 0.5);
-// }
+.aa {
+  &:hover {
+    text-decoration: none;
+  }
+}
 
 .pro-text {
   margin-top: 2rem;
   padding:0 0.5rem;
+  &:hover {
+    text-decoration: none;
+  }
   & :nth-child(1) {
     color: #333;
+    &:hover {
+      text-decoration: none;
+    }
   }
   & :nth-child(2) {
     color: rgb(170, 144, 29);
     letter-spacing: 1px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  & :nth-child(3) {
+    color: black;
+    letter-spacing: 1px;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 

@@ -362,6 +362,11 @@ td:hover {
   padding: 0.2rem 0.5rem;
 }
 
+.li {
+  list-style-type: none;
+  font-weight: 500;
+}
+
 .p-card {
   position: relative;
   overflow: hidden;
@@ -707,18 +712,43 @@ td:hover {
   margin-bottom: 1.5rem;
 }
 
+.aa:hover {
+  text-decoration: none;
+}
+
 .pro-text {
   margin-top: 2rem;
   padding: 0 0.5rem;
+}
+
+.pro-text:hover {
+  text-decoration: none;
 }
 
 .pro-text :nth-child(1) {
   color: #333;
 }
 
+.pro-text :nth-child(1):hover {
+  text-decoration: none;
+}
+
 .pro-text :nth-child(2) {
   color: #aa901d;
   letter-spacing: 1px;
+}
+
+.pro-text :nth-child(2):hover {
+  text-decoration: none;
+}
+
+.pro-text :nth-child(3) {
+  color: black;
+  letter-spacing: 1px;
+}
+
+.pro-text :nth-child(3):hover {
+  text-decoration: none;
 }
 
 .h7 {
